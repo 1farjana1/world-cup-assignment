@@ -112,7 +112,15 @@ body {
 }
 
 .button {
-    margin-left: 70px;
+    margin-left: 45px;
+}
+
+button {
+    display: inline-block;
+}
+
+.button {
+    padding: 10px 30px;
 }
 
 .details {
@@ -122,7 +130,8 @@ body {
 .flex {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 60px;
+    column-gap: 4px;
+    margin-left: 50px;
 }
 
 .first {
@@ -295,10 +304,6 @@ footer a {
         margin-left: 150px;
     }
 
-    .flex {
-        margin-left: 160px;
-    }
-
     .button {
         margin-left: 210px;
     }
@@ -384,12 +389,17 @@ footer a {
         margin-left: 75px;
     }
 
+    button {
+        display: inline-block;
+    }
+
     .button {
-        margin-left: 125px;
+        padding: 10px 30px;
+        margin-left: 100px;
     }
 
     .flex {
-        margin-left: 100px;
+        margin-left: 95px;
     }
 
     /* footer-part */
